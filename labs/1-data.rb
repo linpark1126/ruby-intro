@@ -15,3 +15,10 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+first_roll = rand(1..6)
+second_roll = rand(1..6)
+
+puts "first dice rolls #{first_roll}"
+puts "second dice rolls #{second_roll}"
+puts "the total is #{first_roll + second_roll}"
